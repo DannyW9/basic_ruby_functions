@@ -43,7 +43,6 @@ class FunctionsTest < MiniTest::Test
   end
 
   def test_add_string_as_number()
-    skip
     add_result = add_string_as_number( "1", "2" )
     assert_equal( 3, add_result )
   end
