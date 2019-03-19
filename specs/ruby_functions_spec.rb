@@ -10,7 +10,6 @@ class FunctionsTest < MiniTest::Test
   end
 
   def test_add()
-    skip
     add_result = add( 1, 2 )
     assert_equal( 3, add_result )
   end
