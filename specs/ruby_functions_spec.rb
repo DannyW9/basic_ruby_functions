@@ -30,7 +30,6 @@ class FunctionsTest < MiniTest::Test
   end
 
   def test_length_of_string()
-    skip
     test_string = "A string of length 21"
     length_of_string = length_of_string( test_string )
     assert_equal( 21, length_of_string )
