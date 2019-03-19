@@ -36,7 +36,6 @@ class FunctionsTest < MiniTest::Test
   end
 
   def test_join_string()
-    skip
     string_1 = "Mary had a little lamb, "
     string_2 = "its fleece was white as snow"
     joined_string = join_string( string_1, string_2 )
