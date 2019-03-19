@@ -15,7 +15,6 @@ class FunctionsTest < MiniTest::Test
   end
 
   def test_subtract()
-    skip
     subtract_result = subtract( 10, 5 )
     assert_equal( 5, subtract_result )
   end
