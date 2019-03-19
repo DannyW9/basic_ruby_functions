@@ -61,3 +61,8 @@ def number_to_full_month_name(x)
   end
   return month
 end
+
+def number_to_short_month_name(x)
+  short_month = number_to_full_month_name(x)
+  return short_month[0..2]
+end
